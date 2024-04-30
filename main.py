@@ -176,10 +176,3 @@ def decode(path="image.png"):
         toreturn += chr(temp-10)
         k += 1
     return toreturn
-
-enc = encode("""                                                                                                                  
-""")
-dec = decode()
-
-print("Saved")
-print(dec)
